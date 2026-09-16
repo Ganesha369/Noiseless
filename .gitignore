@@ -1,0 +1,36 @@
+# === SECRETS — NEVER COMMIT ===
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Streamlit local state
+.streamlit/
+
+# Scratch / dev artifacts
+scratch/
+*.log
+*.tmp
